@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 80%;
+    width: 90%;
+    background-color: white;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    /* background-color: chocolate; */
+}
+
+.left h1{
+    padding: 3vw 0 .8vw 10vw;
+}
+
+.left .options input{
+    margin-left: 10vw;
+    margin-top: 1vw;
+    padding: .7vw 3.2vw;
+    border-radius: 50px;
+    border: 1px solid gray;
+}
+
+.options ::placeholder{
+    font-size: .9vw;
+    font-weight: 500;
+    color: black;
+}
+
+.left p{
+    padding-left: 10vw;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+
+.options p{
+    color: gray;
+    font-size: 1vw;
+    padding: 1.5vw 0 1vw 14vw;
+    /* border-left: 1px solid gray; */
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 7vw;
+}
+
+form input{
+    padding: .7vw 3.2vw;
+    border-radius: 50px;
+    border: 1px solid gray;
+}
+
+form label{
+    padding-right: 15.1vw;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+
+form h5{
+    padding-left: 10vw;
+    padding-top: .5vw;
+    font-size: 1vw;
+    font-weight: 600;
+    color: blueviolet;
+}
+
+form button{
+    padding: .8vw 8.1vw;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(26, 26, 100);
+    font-size: .8vw;
+    font-weight: 600;
+    /* border: 1px solid black; */
+    border: none;
+}
+
+.left h6{
+    padding-left: 10vw;
+    color: gray;
+    font-size: .9vw;
+    padding-top: 2.4vw;
+}
+
+form input:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+
+.right{
+    height: 100%;
+    width: 50%;
+    background-color: green;
+}
